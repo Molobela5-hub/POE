@@ -34,7 +34,7 @@ namespace CyberSecurityAwarenessBot
             ConsoleUI.WriteBotMessage("You can ask me things like:");
             ConsoleUI.WriteBotMessage(": How are you?");
             ConsoleUI.WriteBotMessage(": What's your purpose?");
-           
+            ConsoleUI.WriteBotMessage(": What can I ask you about?");
 
             chatbot.StartChat(user);
         }
