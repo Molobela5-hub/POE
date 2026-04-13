@@ -38,6 +38,7 @@ namespace CyberSecurityAwarenessBot
             ConsoleUI.WriteBotMessage(": Tell me about password safety");
             ConsoleUI.WriteBotMessage(": What is phishing?");
             ConsoleUI.WriteBotMessage(": How do I browse safely?");
+            ConsoleUI.WriteBotMessage("Type 'exit' to close the chatbot.");
             chatbot.StartChat(user);
         }
     }
