@@ -26,9 +26,9 @@ namespace CyberSecurityAwarenessBot
             {
                 ConsoleUI.WriteError("Please enter your name:");
                 nameInput = Console.ReadLine();
-            
+            }
 
-            user.Name = nameInput.Trim();
+                user.Name = nameInput.Trim();
 
             ConsoleUI.WriteSuccess($"Nice to meet you, {user.Name}!");
             ConsoleUI.WriteBotMessage("You can ask me things like:");
