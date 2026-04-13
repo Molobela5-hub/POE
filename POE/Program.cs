@@ -26,7 +26,7 @@ namespace CyberSecurityAwarenessBot
             {
                 ConsoleUI.WriteError("Please enter your name:");
                 nameInput = Console.ReadLine();
-            }
+            
 
             user.Name = nameInput.Trim();
 
