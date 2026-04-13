@@ -28,17 +28,13 @@ namespace CyberSecurityAwarenessBot
                 nameInput = Console.ReadLine();
             }
 
-                user.Name = nameInput.Trim();
+            user.Name = nameInput.Trim();
 
             ConsoleUI.WriteSuccess($"Nice to meet you, {user.Name}!");
             ConsoleUI.WriteBotMessage("You can ask me things like:");
             ConsoleUI.WriteBotMessage(": How are you?");
             ConsoleUI.WriteBotMessage(": What's your purpose?");
-            ConsoleUI.WriteBotMessage(": What can I ask you about?");
-            ConsoleUI.WriteBotMessage(": Tell me about password safety");
-            ConsoleUI.WriteBotMessage(": What is phishing?");
-            ConsoleUI.WriteBotMessage(": How do I browse safely?");
-            ConsoleUI.WriteBotMessage("Type 'exit' to close the chatbot.");
+           
 
             chatbot.StartChat(user);
         }
