@@ -35,7 +35,9 @@ namespace CyberSecurityAwarenessBot
             ConsoleUI.WriteBotMessage(": How are you?");
             ConsoleUI.WriteBotMessage(": What's your purpose?");
             ConsoleUI.WriteBotMessage(": What can I ask you about?");
-
+            ConsoleUI.WriteBotMessage(": Tell me about password safety");
+            ConsoleUI.WriteBotMessage(": What is phishing?");
+            ConsoleUI.WriteBotMessage(": How do I browse safely?");
             chatbot.StartChat(user);
         }
     }
